@@ -1,0 +1,4 @@
+(executable
+ (public_name ocaml_gui_adventures)
+ (name main)
+ (libraries ocaml_gui_adventures sqlite3 bogue))
