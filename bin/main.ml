@@ -28,6 +28,7 @@ let _create_question question answer =
 
 
 let question_gui row _ =
+  (*Could also do like: let q = Some row.(0) in *)
   match row.(0), row.(1) with 
   | Some question, Some answer -> (
   let question_label = W.text_display ~w:40 ~h:40 question in
